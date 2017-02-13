@@ -1,0 +1,60 @@
+---
+layout: default
+---
+
+{% include wrap.html %}
+
+<div class="container mt">
+    <div class="row">
+        <div class="col-lg-5 col-lg-offset-1">
+        <h4>Download at <b></h4>
+        <a href="{{page.download}}"> {{ page.download }}</a></b>
+            <div class="spacing"></div>
+            {{ content }}
+            </div>
+	<div class="col-lg-4 col-lg-offset-1">
+            <div class="spacing"></div> 
+            <h4>Dataset Details</h4>
+            <div class="hline"></div>
+            <p>Release date: &nbsp {{ page.releasedate }}</p>
+            {% if page.doi %}<p>DOI: &nbsp {{ page.doi }}</p>{% endif %}
+            <p>Described in: &nbsp <a href="{{ page.paperlink }}">{{ page.paperdescribe }}</a></p>
+            {% if page.ref == "671basins" %}{% assign posts = site.tags.dataset_671basins %}{% endif %}
+            {% if page.ref == "BCSD" %}{% assign posts = site.tags.dataset_BCSD %}{% endif %}
+            {% if page.ref == "100ensemble" %}{% assign posts = site.tags.dataset_100ensemble %}{% endif %}
+
+            {% if page.ref %} <p> Proper dataset citation: </p> {% endif %}
+            {% include citationdata.html %}
+
+            &nbsp
+            <h4>Development Team</h4>
+            <div class="hline"></div>
+            <p>{{ page.teamline1 }}</p>
+            <p>{{ page.teamline2 }}</p>
+            {% if page.teamline3 %}<p>{{ page.teamline3 }}</p>{% endif %}
+            {% if page.teamline4 %}<p>{{ page.teamline4 }}</p>{% endif %}
+            {% if page.teamline5 %}<p>{{ page.teamline5 }}</p>{% endif %}
+            {% if page.teamline6 %}<p>{{ page.teamline6 }}</p>{% endif %}
+            {% if page.teamline7 %}<p>{{ page.teamline7 }}</p>{% endif %}
+            <p>Contact: {{ page.contacts }}</p>
+            &nbsp
+            <h4>Sponsors</h4>
+            <div class="hline"></div>
+            <p>{{ page.sponsors }}</p>
+            &nbsp
+            <h4>More Information</h4>
+            <div class="hline"></div>
+	    {% if page.modellink %} <p> Model used: &nbsp  <a href="{{ page.modellink | prepend: "/models/" | prepend: site.baseurl }}">{{ page.modellink }}</a></p>{% endif %}
+	    {% if page.projectlink %}<p> Related project information:  &nbsp  <a href="{{ page.projectlink | prepend: "/projects/" | prepend: site.baseurl }}">{{ page.projectlink }}</a></p>{% endif %}
+            <!-- if statements below are not ideal, should find way to add variable into assign--> 
+            {% if page.ref == "671basins" %}{% assign posts = site.tags.paper_671basins %}{% endif %}
+            {% if page.ref == "BCSD" %}{% assign posts = site.tags.paper_BCSD %}{% endif %}
+            {% if page.ref == "100ensemble" %}{% assign posts = site.tags.paper_100ensemble %}{% endif %}
+
+            {% if page.ref %} <p> Related Papers: </p> {% endif %}
+            {% include citationpaper.html %}
+	    &nbsp
+        </div>
+
+    </div><! --/row -->
+</div><! --/container -->
