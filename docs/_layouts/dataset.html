@@ -17,7 +17,6 @@ layout: default
             <h4>Dataset Details</h4>
             <div class="hline"></div>
             <p>Release date: &nbsp {{ page.releasedate }}</p>
-            {% if page.doi %}<p>DOI: &nbsp {{ page.doi }}</p>{% endif %}
             <p>Described in: &nbsp <a href="{{ page.paperlink }}">{{ page.paperdescribe }}</a></p>
             {% if page.ref == "671basins" %}{% assign posts = site.tags.dataset_671basins %}{% endif %}
             {% if page.ref == "BCSD" %}{% assign posts = site.tags.dataset_BCSD %}{% endif %}

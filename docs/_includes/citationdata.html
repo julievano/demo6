@@ -4,7 +4,7 @@
 	{% if post.volume %} <b>{{ post.volume }}</b>,{% endif %} 
 	{% if post.pages %}{{ post.pages }},{% endif %} 
 	{% if post.doi %} doi:<a href=http://dx.doi.org/{{ post.doi }}>{{ post.doi }}</a> {% endif %} 
-	{% if post.doi == false and post.download == true %} download at:<a href={{ post.download }}>{{ post.download }}</a>{% endif %}
+	{% if post.doi == nil and post.download == true %} download at:<a href={{ post.download }}>{{ post.download }}</a>{% endif %}
 	</ul>
 &nbsp
 {% endfor %}
