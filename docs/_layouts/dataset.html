@@ -7,9 +7,10 @@ layout: default
 <div class="container mt">
     <div class="row">
         <div class="col-lg-5 col-lg-offset-1">
-        <h4>Download at <b></h4>
+        <h4>Download dataset at <b></h4>
         <a href="{{page.download}}"> {{ page.download }}</a></b>
             <div class="spacing"></div>
+        <h4>Summary</h4>
             {{ content }}
             </div>
 	<div class="col-lg-4 col-lg-offset-1">
@@ -17,6 +18,8 @@ layout: default
             <h4>Dataset Details</h4>
             <div class="hline"></div>
             <p>Release date: &nbsp {{ page.releasedate }}</p>
+            <p>Version: &nbsp {{ page.version }}</p>
+            <p>Format and size: &nbsp {{ page.format }}</p>
             <p>Described in: &nbsp <a href="{{ page.paperlink }}">{{ page.paperdescribe }}</a></p>
             {% if page.ref == "671basins" %}{% assign posts = site.tags.dataset_671basins %}{% endif %}
             {% if page.ref == "BCSD" %}{% assign posts = site.tags.dataset_BCSD %}{% endif %}
