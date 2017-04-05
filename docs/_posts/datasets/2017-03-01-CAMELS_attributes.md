@@ -8,7 +8,7 @@ teamline1: "NCAR: Martyn Clark (PI), Nans Addor, Andrew Newman, Naoki Mizukami "
 contacts: "Nans Addor | naddor@ucar.edu"
 sponsors: U.S. Army Corps of Engineers, Bureau of Reclamation?
 ref: camels
-filename: camels
+filename: CAMELS_attribute
 date: 2017-03-01 10:46:43
 doi: XXX
 download: http://dx.doi.org/XXX

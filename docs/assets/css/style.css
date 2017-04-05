@@ -224,7 +224,7 @@ a:focus {
 #headerwrap {
 	background-color: #014f7e;
 	min-height: 0px;
-	padding-top: 100px;
+	padding-top: 50px;
 	padding-bottom: 20px;
 	text-align: center;
 }
@@ -392,10 +392,10 @@ a:focus {
 
 #blue {
 	background: #014f7e;
-	margin-top: 60px;
+	margin-top: 0px;
 	margin-bottom: 60px;
-	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 #blue h3 {
