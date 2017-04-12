@@ -16,9 +16,9 @@ modellink: could link with any models
 paperdescribe: Newman et al., HESS, 2015
 shortblurb: "This dataset includes basin scale hydrometeorological forcing data for 671 basins in the U.S. Geological Survey's Hydro-Climatic Data Network using retrospective model forcings from three different datasets: Daymet (1980-2014), NLDAS (1980-2014), and Maurer et al. (1980-2008)." 
 filename: CAMELS_timeseries
-ref: 671basins 
+ref: CAMELS_timeseries 
 sponsors: XXX
-tags: [datasets,dataset_params,dataset_streamforecast,dataset_671basins]
+tags: [datasets,dataset_params,dataset_streamforecast,dataset_CAMELS_timeseries]
 categories:
 - datasets
 ---

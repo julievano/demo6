@@ -18,10 +18,12 @@ layout: default
             <h4>Dataset Details</h4>
             <div class="hline"></div>
             <p>Release date: &nbsp {{ page.releasedate }}</p>
-            <p>Version: &nbsp {{ page.version }}</p>
-            <p>Status: &nbsp {{ page.status }}</p>
+            <p>Versions available: &nbsp {{ page.version }}</p>
+            <p>Access information: &nbsp {{ page.access }}</p>
             {% if page.ref %} <p> How to cite this resource: </p> {% endif %}
             {% if page.ref == "671basins" %}{% assign posts = site.tags.dataset_671basins %}{% endif %}
+            {% if page.ref == "CAMELS_attributes" %}{% assign posts = site.tags.dataset_CAMELS_attributes %}{% endif %}
+            {% if page.ref == "CAMELS_timeseries" %}{% assign posts = site.tags.dataset_CAMELS_timeseries %}{% endif %}
             {% if page.ref == "BCSD" %}{% assign posts = site.tags.dataset_BCSD %}{% endif %}
             {% if page.ref == "100ensemble" %}{% assign posts = site.tags.dataset_100ensemble %}{% endif %}
             {% include citationdata.html %}
@@ -29,10 +31,9 @@ layout: default
             &nbsp
             <h4>Dataset Attributes</h4>
             <div class="hline"></div>
-            <p>Format: &nbsp {{ page.format }}</p>
-            <p>Size: &nbsp {{ page.size }}</p>
+            <p>Format and size: &nbsp {{ page.format }}</p>
             <p>Coverage: &nbsp {{ page.coverage }}</p>
-            <p>Described in: &nbsp <a href="{{ page.paperlink }}">{{ page.paperdescribe }}</a></p>
+            <p>Dataset details: &nbsp <a href="{{ page.paperlink }}">{{ page.paperdescribe }}</a></p>
             &nbsp
 
             <h4>Development Team</h4>

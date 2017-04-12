@@ -1,28 +1,27 @@
 ---
 layout: dataset
-title: "CAMELS: Catchment Attributes for Large-sample Studies"
+date: 2017-03-01 10:46:43
+title: "CAMELS: Catchment Attributes for Large-Sample Studies"
+shortblurb: "A data set of attributes for 671 catchments in the contiguous USA (CONUS). This complements the Large-Sample Hydrometeorological Dataset provided by Newman et al. 2015 (link below) and opens new opportunities to explore how the interplay between landscape attributes shapes hydrological processes and catchment behavior..."
 fulltitlelocation: "The CAMELS data set: catchment attributes and meteorology for large-sample studies. Boulder, CO: UCAR/NCAR"
 releasedate: 2017, last update March 2017
 authorlist: "Addor, N., A.J. Newman, N. Mizukami, and M.P. Clark"
 teamline1: "NCAR: Martyn Clark (PI), Nans Addor, Andrew Newman, Naoki Mizukami "
 contacts: "Nans Addor | naddor@ucar.edu"
-sponsors: U.S. Army Corps of Engineers, Bureau of Reclamation?
-ref: camels
+sponsors: U.S. Army Corps of Engineers, Bureau of Reclamation ???
+ref: CAMELS_attributes
 filename: CAMELS_attributes
-date: 2017-03-01 10:46:43
-doi: XXX
+doi: 
 download: http://dx.doi.org/XXX
-version: 1.0
-format: netCDF?
-size: X MB
-coverage: 671 watersheds across contigous USA
 paperdescribe: "Addor et al., HESS, 2017"
-status: coming soon
 paperlink: http://dx.doi.org/10.5194/hess-2017-169
-modellink: GMET?
-shortblurb: "A data set of attributes for 671 catchments in the contiguous USA (CONUS). This complements the Large-Sample Hydrometeorological Dataset provided by Newman et al. 2015 (link below) and opens new opportunities to explore how the interplay between landscape attributes shapes hydrological processes and catchment behavior..."
+version: 1.0, coming soon
+format: ascii files, X MB
+coverage: 671 watersheds across contigous USA
+access: freely available at http://dx.doi.org/XXX
+modellink: GMET
 projectlink: meteorological_datasets
-tags: [datasets,dataset_met, dataset_GMET]
+tags: [datasets,dataset_met, dataset_GMET, dataset_CAMELS_attributes]
 categories:
 - datasets
 ---
