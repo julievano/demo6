@@ -1,6 +1,6 @@
 ---
 layout: dataset
-title: "CAMELS: Catchment Attributes and Meteorology for Large-sample Studies"
+title: "CAMELS: Catchment Attributes for Large-sample Studies"
 fulltitlelocation: "The CAMELS data set: catchment attributes and meteorology for large-sample studies. Boulder, CO: UCAR/NCAR"
 releasedate: 2017, last update March 2017
 authorlist: "Addor, N., A.J. Newman, N. Mizukami, and M.P. Clark"
@@ -8,7 +8,7 @@ teamline1: "NCAR: Martyn Clark (PI), Nans Addor, Andrew Newman, Naoki Mizukami "
 contacts: "Nans Addor | naddor@ucar.edu"
 sponsors: U.S. Army Corps of Engineers, Bureau of Reclamation?
 ref: camels
-filename: CAMELS_attribute
+filename: CAMELS_attributes
 date: 2017-03-01 10:46:43
 doi: XXX
 download: http://dx.doi.org/XXX

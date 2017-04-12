@@ -7,7 +7,7 @@ authorlist: "A. Newman, K. Sampson, M.P. Clark, A. Bock, and R.J. Viger, and D. 
 teamline1: "NCAR: Martyn Clark (PI), Andrew Newman, Kevin Sampson"
 teamline2: "USGS: A. Bock, R.J. Viger, D. Blodgett"
 contacts: "Andrew Newman | anewman@ucar.edu"
-date: 2014-01-01 10:46:43
+date: 2016-10-01 10:46:43
 doi: "10.5065/D6MW2F4D"
 download: http://ral.ucar.edu/projects/hap/flowpredict/hydromet_data
 paperlink: http://dx.doi.org/10.5194/hess-19-209-2015

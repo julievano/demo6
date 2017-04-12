@@ -222,9 +222,9 @@ a:focus {
 ################################################################# */
 
 #headerwrap {
-	background-color: #014f7e;
+	background-color: #0a75a1;
 	min-height: 0px;
-	padding-top: 50px;
+	padding-top: 110px;
 	padding-bottom: 20px;
 	text-align: center;
 }
@@ -391,11 +391,11 @@ a:focus {
 /* General Tweaks */
 
 #blue {
-	background: #014f7e;
+	background: #0a75a1;
 	margin-top: 0px;
 	margin-bottom: 60px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 110px;
+	padding-bottom: 25px;
 }
 
 #blue h3 {
