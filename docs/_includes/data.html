@@ -2,7 +2,7 @@
 	<div class="spacing"></div>
             <h4>{{ post.title }}</h4>
 		{{ post.shortblurb }} 
-            <p>Click <b><a href="{{ post.filename | prepend: "/datasets/" | prepend: site.baseurl }}">{{ "HERE" }}</b></a> to learn more.</p>
+            {% if post.filename %}<p>Click <b><a href="{{ post.filename | prepend: "/datasets/" | prepend: site.baseurl }}">{{ "HERE" }}</b></a> to learn more.</p>{% endif %}
 
             <p><b>Download at: </b> <a href="{{post.download}}"> {{ post.download }}</a></p>
             <p><b>Described in: </b> <a href="{{ post.paperlink }}">{{ post.paperdescribe }}</a></p>

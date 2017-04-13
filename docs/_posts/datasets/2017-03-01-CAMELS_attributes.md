@@ -21,6 +21,7 @@ coverage: 671 watersheds across contigous USA
 access: freely available at http://dx.doi.org/XXX
 modellink: GMET
 projectlink: meteorological_datasets
+datasetlink: CAMELS_timeseries
 tags: [datasets,dataset_met, dataset_GMET, dataset_CAMELS_attributes]
 categories:
 - datasets

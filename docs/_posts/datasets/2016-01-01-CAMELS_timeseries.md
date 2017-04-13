@@ -12,6 +12,7 @@ doi: "10.5065/D6MW2F4D"
 download: http://ral.ucar.edu/projects/hap/flowpredict/hydromet_data
 paperlink: http://dx.doi.org/10.5194/hess-19-209-2015
 projectlink: could link with any projects 
+datasetlink: CAMELS_attributes
 modellink: could link with any models
 paperdescribe: Newman et al., HESS, 2015
 shortblurb: "This dataset includes basin scale hydrometeorological forcing data for 671 basins in the U.S. Geological Survey's Hydro-Climatic Data Network using retrospective model forcings from three different datasets: Daymet (1980-2014), NLDAS (1980-2014), and Maurer et al. (1980-2008)." 
