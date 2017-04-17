@@ -1,24 +1,40 @@
 ---
 layout: dataset
-title: "CAMELS: Large-Sample Hydrometeorological Dataset"
-fulltitlelocation: "A large-sample watershed-scale hydrometeorological dataset for the contiguous USA. Boulder, CO: UCAR/NCAR"
-releasedate: 2014
+date: 2016-10-01 10:46:43
+publicationyear: 2014
+lastupdate:
+
 authorlist: "A. Newman, K. Sampson, M.P. Clark, A. Bock, and R.J. Viger, and D. Blodgett"
+fulltitle: "A large-sample watershed-scale hydrometeorological dataset for the contiguous USA"
+location: "Boulder, CO"
+publisher: "UCAR/NCAR"
+download: http://ral.ucar.edu/projects/hap/flowpredict/hydromet_data
+versions: 1.0
+lastestversion: 
+status: available
+doi: "10.5065/D6MW2F4D"
+
+title: "CAMELS: Large-Sample Hydrometeorological Dataset"
+shortblurb: "This dataset includes basin scale hydrometeorological forcing data for 671 basins in the U.S. Geological Survey's Hydro-Climatic Data Network using retrospective model forcings from three different datasets: Daymet (1980-2014), NLDAS (1980-2014), and Maurer et al. (1980-2008)."
+
+format: "ascii files, X MB"
+coverage: 671 watersheds across contiguous USA
+access: freely available at http://ral.ucar.edu/projects/hap/flowpredict/hydromet_data
+paperdescribe: Newman et al., HESS, 2015
+paperlink: http://dx.doi.org/10.5194/hess-19-209-2015
+
 teamline1: "NCAR: Martyn Clark (PI), Andrew Newman, Kevin Sampson"
 teamline2: "USGS: A. Bock, R.J. Viger, D. Blodgett"
 contacts: "Andrew Newman | anewman@ucar.edu"
-date: 2016-10-01 10:46:43
-doi: "10.5065/D6MW2F4D"
-download: http://ral.ucar.edu/projects/hap/flowpredict/hydromet_data
-paperlink: http://dx.doi.org/10.5194/hess-19-209-2015
-projectlink: could link with any projects 
+sponsors: "Bureau of Reclamation, U.S. Army Corps of Engineers"
+
+modellink:
+projectlink:
 datasetlink: CAMELS_attributes
-modellink: could link with any models
-paperdescribe: Newman et al., HESS, 2015
-shortblurb: "This dataset includes basin scale hydrometeorological forcing data for 671 basins in the U.S. Geological Survey's Hydro-Climatic Data Network using retrospective model forcings from three different datasets: Daymet (1980-2014), NLDAS (1980-2014), and Maurer et al. (1980-2008)." 
-filename: CAMELS_timeseries
+
 ref: CAMELS_timeseries 
-sponsors: XXX
+filename: CAMELS_timeseries
+
 tags: [datasets,dataset_params,dataset_streamforecast,dataset_CAMELS_timeseries]
 categories:
 - datasets

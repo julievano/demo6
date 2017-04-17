@@ -17,8 +17,8 @@ layout: default
             <div class="spacing"></div> 
             <h4>Dataset Details</h4>
             <div class="hline"></div>
-            <p>Release date: &nbsp {{ page.releasedate }}</p>
-            <p>Versions available: &nbsp {{ page.version }}</p>
+            <p>Release date: &nbsp {{ page.publicationyear }}{% if page.lastupdate %},&nbsp&nbsp last updated {{ page.lastupdate }} {% endif %} </p>
+            {% if page.versions %}<p>Versions: &nbsp {{ page.versions }}{% if page.status %},&nbsp&nbsp{{ page.status }} {% endif %}</p>{% endif %}
             <p>Access information: &nbsp {{ page.access }}</p>
             {% if page.ref %} <p> How to cite this resource: </p> {% endif %}
             {% if page.ref == "CAMELS_attributes" %}{% assign posts = site.tags.dataset_CAMELS_attributes %}{% endif %}
